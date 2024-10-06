@@ -1,7 +1,7 @@
 ---
 - name: Install EXE package on Windows
-  hosts: windows
-  gather_facts: no
+  hosts: all
+  remote_user: ansible
   tasks:
 
     - name: Copy EXE file to Windows host
