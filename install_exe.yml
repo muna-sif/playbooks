@@ -6,7 +6,7 @@
 
     - name: Copy EXE file to Windows host
       win_copy:
-        src: ~/tosend/7z2408-x64.exe
+        src: /var/lib/awx/projects/7z2408-x64.exe
         dest: C:\temp\ansible_deploy.exe
 
     - name: Run exe installer
